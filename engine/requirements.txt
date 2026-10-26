@@ -1,0 +1,7 @@
+faster-whisper>=1.1
+numpy
+scipy
+soundfile
+pyloudnorm
+opencv-python-headless>=4.8,<5
+yt-dlp

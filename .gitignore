@@ -1,0 +1,17 @@
+# 큰 파일·자동 생성 파일
+.venv/
+models/
+engine/node_modules/
+jobs/
+output/
+refs/
+*.mp4
+*.mov
+*.m4v
+*.mkv
+*.webm
+*.avi
+bgm/*
+!bgm/.gitkeep
+# 개인 후기 사진(다른 분 아이디가 보여서 저장소에는 올리지 않음)
+assets/reviews/

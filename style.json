@@ -1,0 +1,103 @@
+{
+  "_설명": "릴스 자동 편집 숫자 규칙. 프로그램(engine/reels.py)이 편집할 때마다 이 파일을 읽는다. 사람이 읽는 설명은 편집규칙집.md",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "crf": 16,
+    "preset": "slow",
+    "audio_bitrate": "320k"
+  },
+  "cut": {
+    "max_pause": 0.15,
+    "word_pad": 0.05,
+    "crossfade_ms": 10,
+    "min_piece": 0.12,
+    "drop_wordless_under": 0.6,
+    "end_extend_max": 0.12,
+    "outro_after_last_word": 0.3
+  },
+  "takes": {
+    "whisper_db_below_median": 8.0,
+    "prefer_louder_if_db": 3.0
+  },
+  "level_match": {
+    "max_boost_db": 6.0,
+    "max_cut_db": 3.0
+  },
+  "subtitle": {
+    "font": "Pretendard ExtraBold",
+    "font_size": 70,
+    "color": "#FFFFFF",
+    "highlight_color": "#FFE14D",
+    "outline": 6,
+    "shadow": 3,
+    "max_chars": 16,
+    "min_words": 2,
+    "max_words": 4,
+    "remove_chars": ",.…·~",
+    "keep_chars": "?!",
+    "y_face": 1380,
+    "y_split": 1060,
+    "face_margin": 60
+  },
+  "emphasis": {
+    "numbers": true,
+    "words": ["진짜", "무조건", "바로", "전부", "완전", "절대", "정말", "무료", "자동", "공짜", "꼭"],
+    "pop_scale": 118,
+    "pop_ms": 260,
+    "pop_min_gap": 4.0,
+    "zoom": 1.15,
+    "zoom_hold": 0.45
+  },
+  "title": {
+    "font": "Pretendard Black",
+    "font_size": 92,
+    "color": "#FFFFFF",
+    "highlight_color": "#FFE14D",
+    "chars_per_line": 12,
+    "y": 170,
+    "cta_template": ["팔로우하고", "댓글에 '{keyword}'"],
+    "cta_emoji": "👇"
+  },
+  "layout": {
+    "split_ratio_min": 0.70,
+    "split_ratio_max": 0.85,
+    "graphic_h": 1140,
+    "graphic_content_h": 960,
+    "face_h": 780,
+    "max_face_emphasis": 2
+  },
+  "graphics": {
+    "bg": "#110F18",
+    "card": "#1B1825",
+    "card_border": "rgba(255,255,255,0.10)",
+    "accent": "#FFC45A",
+    "good": "#3DDC84",
+    "bad": "#FF5A5F",
+    "text": "#F4F1FA",
+    "muted": "#A49DB8",
+    "first_element_within": 0.3,
+    "templates": ["connect", "countup", "chat", "checklist", "beforeafter", "comment_dm", "photos", "statement"]
+  },
+  "zoom": {
+    "cut_from": 1.0,
+    "cut_to": 1.05
+  },
+  "sfx": {
+    "lead": 0.05,
+    "min_gap": 1.2,
+    "gain_db": -7.0
+  },
+  "bgm": {
+    "below_voice_db": 18.0,
+    "duck_db": 6.0,
+    "fade_in": 0.3,
+    "fade_out": 0.8
+  },
+  "loudness": {
+    "target_lufs": -14.0,
+    "peak_dbfs": -1.0
+  },
+  "feedback_log": []
+}
